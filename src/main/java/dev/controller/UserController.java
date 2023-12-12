@@ -33,17 +33,17 @@ public class UserController {
     @RequestMapping("/create")
     public String fourth(Model model) {
         model.addAttribute("user", new Student());
-        return "registration";
+        return "/registration";
     }
 
     @RequestMapping("/store")
     public String fifth(@Valid @ModelAttribute("user") Student user, BindingResult bindingResult) throws SQLException {
         if (bindingResult.hasErrors()) {
-            return "registration";
+            return "/registration";
         }
         else {
             studentService.createStudent(user);
-            return "confirm";
+            return "/confirm";
         }
     }
 
