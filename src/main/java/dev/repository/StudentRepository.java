@@ -26,7 +26,7 @@ public class StudentRepository {
             ResultSet resultSet = metaData.getTables(null, null, "students", null);
 
             if (!resultSet.next()) {
-                // Table does not exist
+                // If students table does not exist
                 createStudentsTable(connection);
             }
         } catch (SQLException e) {
