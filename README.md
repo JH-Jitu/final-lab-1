@@ -97,11 +97,7 @@ The objective of this lab task is to create a Student Management System with the
 - Integrated the backend with frontend pages for user interaction.
 - Developed pages for listing all students, viewing student details, updating student information, and confirming deletion.
 
-**5. Documentation:**
-
-- Updated the `README.md` file on GitHub with information about the project, entity details, and usage instructions.
-
 **Conclusion:**
-The implementation of the Student Management System has been successfully completed. The system provides essential CRUD operations with proper validation using Hibernate Validator. The codebase is well-documented, and the README.md file on GitHub contains comprehensive information for users and developers.
+The implementation of the Student Management System has been successfully completed. The system provides essential CRUD operations with proper validation using Hibernate Validator.
 
 This lab task demonstrates proficiency in Java, Spring, Hibernate, and frontend integration, showcasing the ability to create a functional and validated Student Management System.
