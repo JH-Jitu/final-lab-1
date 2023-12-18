@@ -9,6 +9,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import java.time.LocalDate;
 
+
+
+
 public class Student {
 
     @NotNull
@@ -26,6 +29,7 @@ public class Student {
     @NotNull
     @Past
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @Age
     private LocalDate dateOfBirth;
 
     @NotNull

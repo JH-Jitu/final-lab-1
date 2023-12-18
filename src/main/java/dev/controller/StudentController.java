@@ -36,6 +36,7 @@ public class StudentController {
 
     @RequestMapping("/store")
     public String storeStudent(@Valid @ModelAttribute("student") Student student, BindingResult bindingResult) throws SQLException {
+//        System.out.println(student.getName());
         if (bindingResult.hasErrors()) {
             return "registration";
         } else {
