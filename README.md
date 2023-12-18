@@ -1,5 +1,3 @@
-Creating a Lab Task Report for Advanced Programming With Java Final - Lab Task 1:
-
 ## Lab Task 1: Student Management System
 
 ### Entity: Student
