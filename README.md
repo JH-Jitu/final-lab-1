@@ -86,7 +86,6 @@ The objective of this lab task is to create a Student Management System with the
 
 **2. RESTful Endpoints:**
 
-- Implemented RESTful API endpoints using Spring Boot.
 - Created controllers for listing all students, viewing student details, editing a student, and deleting a student.
 
 **3. Validation:**
