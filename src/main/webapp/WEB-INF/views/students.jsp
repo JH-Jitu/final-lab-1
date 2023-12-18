@@ -95,7 +95,7 @@
     <table>
         <thead>
             <tr>
-                <th>ID</th>
+                <th>Student ID</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Date of Birth</th>
@@ -142,7 +142,6 @@
     function showPopup(studentId) {
         document.getElementById("deletePopup").style.display = "block";
         document.getElementById("overlay").style.display = "block";
-        // Pass the student ID to the confirmation functions
         window.studentIdToDelete = studentId;
     }
 
@@ -152,7 +151,6 @@
     }
 
     function confirmDelete() {
-        // Redirect to the delete URL with the student ID
         window.location.href = "${pageContext.request.contextPath}/students/" + window.studentIdToDelete + "/delete";
     }
 
