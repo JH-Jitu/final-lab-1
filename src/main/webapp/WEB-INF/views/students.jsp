@@ -34,9 +34,9 @@
 
         a {
             text-decoration: none;
-            color: #007BFF;
+            color: #fff;
             padding: 5px 10px;
-            border: 1px solid #007BFF;
+            background: #e784f8;
             border-radius: 5px;
             transition: background-color 0.3s;
         }
@@ -74,6 +74,13 @@
             background-color: #dc3545;
             color: #fff;
         }
+        .btn-details {
+            background-color: #923896;
+            color: #fff;
+        }
+        a{
+        border: 0
+         }
     </style>
 </head>
 <body>
@@ -109,6 +116,7 @@
                     <td>${student.quota}</td>
                     <td>${student.country}</td>
                     <td>
+                        <a class="btn-details" href="${pageContext.request.contextPath}/students/${student.id}">Details</a>
                         <a href="${pageContext.request.contextPath}/students/${student.id}/edit">Edit</a>
                         <a href="#" class="btn-danger" onclick="showPopup(${student.id})">Delete</a>
                     </td>
